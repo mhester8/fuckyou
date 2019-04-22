@@ -1,0 +1,26 @@
+---------------------------------------
+Begin PBS Prologue Mon Apr 15 23:46:04 EDT 2019
+Job ID:     25384432.shared-sched.pace.gatech.edu
+User ID:    mhester8
+Job name:   glucarics
+Queue:      joeforce
+End PBS Prologue Mon Apr 15 23:46:04 EDT 2019
+---------------------------------------
+/gpfs/pace1/project/chbe-medford/mhester8/sugar2019/systems/cugl/hollow/E_slab_ads
+['pw.inp', 'log']
+
+
+
+
+---------------------------------------
+Begin PBS Epilogue Tue Apr 16 23:47:17 EDT 2019
+Job ID:     25384432.shared-sched.pace.gatech.edu
+User ID:    mhester8
+Job name:   glucarics
+Resources:  neednodes=1:ppn=12,nodes=1:ppn=12,walltime=24:00:00
+Rsrc Used:  cput=283:21:20,energy_used=0,mem=13993660kb,vmem=17877928kb,walltime=24:01:13
+Queue:      joeforce
+Nodes:     
+iw-h31-27.pace.gatech.edu
+End PBS Epilogue Tue Apr 16 23:47:17 EDT 2019
+---------------------------------------

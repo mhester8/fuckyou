@@ -1,0 +1,50 @@
+forrtl: Stale file handle
+forrtl: Stale file handle
+forrtl: Stale file handle
+[iw-h31-20.pace.gatech.edu:mpi_rank_8][error_sighandler] Caught error: Bus error (signal 7)
+[iw-h31-20.pace.gatech.edu:mpi_rank_0][error_sighandler] Caught error: Bus error (signal 7)
+forrtl: Stale file handle
+[iw-h31-20.pace.gatech.edu:mpi_rank_1][error_sighandler] Caught error: Bus error (signal 7)
+forrtl: Stale file handle
+[iw-h31-20.pace.gatech.edu:mpi_rank_2][error_sighandler] Caught error: Bus error (signal 7)
+forrtl: Stale file handle
+[iw-h31-20.pace.gatech.edu:mpi_rank_3][error_sighandler] Caught error: Bus error (signal 7)
+forrtl: Stale file handle
+[iw-h31-20.pace.gatech.edu:mpi_rank_4][error_sighandler] Caught error: Bus error (signal 7)
+forrtl: Stale file handle
+[iw-h31-20.pace.gatech.edu:mpi_rank_5][error_sighandler] Caught error: Bus error (signal 7)
+forrtl: Stale file handle
+[iw-h31-20.pace.gatech.edu:mpi_rank_6][error_sighandler] Caught error: Bus error (signal 7)
+[iw-h31-20.pace.gatech.edu:mpi_rank_7][error_sighandler] Caught error: Bus error (signal 7)
+forrtl: Stale file handle
+[iw-h31-20.pace.gatech.edu:mpi_rank_10][error_sighandler] Caught error: Bus error (signal 7)
+forrtl: Stale file handle
+[iw-h31-20.pace.gatech.edu:mpi_rank_11][error_sighandler] Caught error: Bus error (signal 7)
+forrtl: Stale file handle
+[iw-h31-20.pace.gatech.edu:mpi_rank_9][error_sighandler] Caught error: Bus error (signal 7)
+Traceback (most recent call last):
+  File "single_point.py", line 24, in <module>
+  File "/gpfs/pace1/project/chbe-medford/medford-share/gits/frozen/ase_3.13.0/ase/ase/optimize/optimize.py", line 162, in run
+  File "/gpfs/pace1/project/chbe-medford/medford-share/gits/frozen/ase_3.13.0/ase/ase/optimize/optimize.py", line 214, in set_force_consistent
+  File "/gpfs/pace1/project/chbe-medford/medford-share/gits/frozen/ase_3.13.0/ase/ase/atoms.py", line 680, in get_potential_energy
+  File "/gpfs/pace1/project/chbe-medford/medford-share/gits/frozen/ben_espresso_8_24_2017/espresso/__init__.py", line 2201, in get_potential_energy
+  File "/gpfs/pace1/project/chbe-medford/medford-share/gits/frozen/ben_espresso_8_24_2017/espresso/__init__.py", line 1636, in update
+  File "/gpfs/pace1/project/chbe-medford/medford-share/gits/frozen/ben_espresso_8_24_2017/espresso/__init__.py", line 1719, in read
+IOError: [Errno 116] Stale file handle
+cp: accessing `/gpfs/pace1/project/chbe-medford/mhester8/sugar2019/systems/ptgl/hollow/E_slab_ads': Stale file handle
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/local/pacerepov1/python/2.7/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/gpfs/pace1/project/chbe-medford/medford-share/gits/frozen/ben_espresso_8_24_2017/espresso/subdirs.py", line 64, in cleanup
+OSError: [Errno 116] Stale file handle: '/gpfs/pace1/project/chbe-medford/mhester8/sugar2019/systems/ptgl/hollow/E_slab_ads'
+Error in sys.exitfunc:
+Traceback (most recent call last):
+  File "/usr/local/pacerepov1/python/2.7/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/gpfs/pace1/project/chbe-medford/medford-share/gits/frozen/ben_espresso_8_24_2017/espresso/subdirs.py", line 64, in cleanup
+OSError: [Errno 116] Stale file handle: '/gpfs/pace1/project/chbe-medford/mhester8/sugar2019/systems/ptgl/hollow/E_slab_ads'
+[mpiexec@iw-h31-20.pace.gatech.edu] HYDT_bscd_pbs_wait_for_completion (tools/bootstrap/external/pbs_wait.c:67): tm_poll(obit_event) failed with TM error 17002
+[mpiexec@iw-h31-20.pace.gatech.edu] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[mpiexec@iw-h31-20.pace.gatech.edu] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:218): launcher returned error waiting for completion
+[mpiexec@iw-h31-20.pace.gatech.edu] main (ui/mpich/mpiexec.c:344): process manager error waiting for completion

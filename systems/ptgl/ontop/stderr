@@ -1,0 +1,42 @@
+=>> PBS: job killed: walltime 288036 exceeded limit 288000
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+pw.x               0000000000B4CA05  Unknown               Unknown  Unknown
+pw.x               0000000000B4A7C7  Unknown               Unknown  Unknown
+pw.x               0000000000AE4804  Unknown               Unknown  Unknown
+pw.x               0000000000AE4616  Unknown               Unknown  Unknown
+pw.x               0000000000A68556  Unknown               Unknown  Unknown
+pw.x               0000000000A6E5AE  Unknown               Unknown  Unknown
+libpthread.so.0    000000328DE0F7E0  Unknown               Unknown  Unknown
+pw.x               000000000062CEC4  dfunct_mp_newq_co         163  newd.f90
+pw.x               0000000000629298  dfunct_mp_newd_g_          35  newd.f90
+pw.x               0000000000627F59  dfunct_mp_newd_           222  newd.f90
+pw.x               00000000004908B2  electrons_scf_            654  electrons.f90
+pw.x               000000000048AA9F  electrons_                133  electrons.f90
+pw.x               000000000040CF27  run_pwscf_                 90  run_pwscf.f90
+pw.x               000000000040CDA0  MAIN__                     30  pwscf.f90
+pw.x               000000000040CD1E  Unknown               Unknown  Unknown
+libc.so.6          000000328D61ED5D  Unknown               Unknown  Unknown
+pw.x               000000000040CC29  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+pw.x               0000000000B4CA05  Unknown               Unknown  Unknown
+pw.x               0000000000B4A7C7  Unknown               Unknown  Unknown
+pw.x               0000000000AE4804  Unknown               Unknown  Unknown
+pw.x               0000000000AE4616  Unknown               Unknown  Unknown
+pw.x               0000000000A68556  Unknown               Unknown  Unknown
+pw.x               0000000000A6E5AE  Unknown               Unknown  Unknown
+libpthread.so.0    000000328DE0F7E0  Unknown               Unknown  Unknown
+pw.x               000000000062CC36  dfunct_mp_newq_co         162  newd.f90
+pw.x               0000000000629298  dfunct_mp_newd_g_          35  newd.f90
+pw.x               0000000000627F59  dfunct_mp_newd_           222  newd.f90
+pw.x               00000000004908B2  electrons_scf_            654  electrons.f90
+pw.x               000000000048AA9F  electrons_                133  electrons.f90
+pw.x               000000000040CF27  run_pwscf_                 90  run_pwscf.f90
+pw.x               000000000040CDA0  MAIN__                     30  pwscf.f90
+pw.x               000000000040CD1E  Unknown               Unknown  Unknown
+libc.so.6          000000328D61ED5D  Unknown               Unknown  Unknown
+pw.x               000000000040CC29  Unknown               Unknown  Unknown
+[proxy:0:0@rich133-c32-25-l.pace.gatech.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:909): assert (!closed) failed
+[proxy:0:0@rich133-c32-25-l.pace.gatech.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:0@rich133-c32-25-l.pace.gatech.edu] main (pm/pmiserv/pmip.c:206): demux engine error waiting for event

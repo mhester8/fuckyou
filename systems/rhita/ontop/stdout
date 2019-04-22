@@ -1,0 +1,27 @@
+---------------------------------------
+Begin PBS Prologue Tue Apr 16 00:21:00 EDT 2019
+Job ID:     25385199.shared-sched.pace.gatech.edu
+User ID:    mhester8
+Job name:   ptlevontop
+Queue:      joeforce
+End PBS Prologue Tue Apr 16 00:21:00 EDT 2019
+---------------------------------------
+/gpfs/pace1/project/chbe-medford/mhester8/sugar2019/systems/rhita/ontop/E_slab_ads
+['pw.inp', 'qe25042740.shared-sched.pace.gatech.edu_kgv3j', 'log']
+
+
+
+
+-207300.552852
+---------------------------------------
+Begin PBS Epilogue Tue Apr 16 17:00:13 EDT 2019
+Job ID:     25385199.shared-sched.pace.gatech.edu
+User ID:    mhester8
+Job name:   ptlevontop
+Resources:  neednodes=1:ppn=12,nodes=1:ppn=12,walltime=24:00:00
+Rsrc Used:  cput=199:51:07,energy_used=0,mem=13558460kb,vmem=18536444kb,walltime=16:39:13
+Queue:      joeforce
+Nodes:     
+rich133-k35-30-r.pace.gatech.edu
+End PBS Epilogue Tue Apr 16 17:00:13 EDT 2019
+---------------------------------------
